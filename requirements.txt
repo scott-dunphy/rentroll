@@ -1,0 +1,9 @@
+langchain
+langchain-openai
+tqdm
+pinecone-client==3.0.0
+tiktoken
+openai==1.12.0
+pydantic
+streamlit-pydantic
+langchain-community==0.0.20
