@@ -29,7 +29,7 @@ client = OpenAI()
 
 pc_env = "gcp-starter"
 pc_key = "6ddd683f-f012-4ae6-bd94-e30590812ca0"
-index_name = 'rentroll'
+index_name = 'rentrolls'
 
 pc = Pinecone(api_key=pc_key)
 index = pc.Index(index_name)
