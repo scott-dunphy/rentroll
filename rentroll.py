@@ -27,9 +27,9 @@ llm = ChatOpenAI(model_name="gpt-3.5-turbo")
 
 client = OpenAI()
 
-pc_env = "asia-southeast1-gcp-free"
-pc_key = "6a666c6c-7238-48bd-b5f6-3b559d156e10"
-index_name = 'cre'
+pc_env = "gcp-starter"
+pc_key = "6ddd683f-f012-4ae6-bd94-e30590812ca0"
+index_name = 'rentroll'
 
 pc = Pinecone(api_key=pc_key)
 index = pc.Index(index_name)
