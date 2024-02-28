@@ -53,7 +53,7 @@ def chatcre(query):
 )
     vectorstore.similarity_search(
     query,  # our search query
-    k=3  # return 3 most relevant docs
+    k=15  # return 3 most relevant docs
 )
 
     llm = ChatOpenAI(
