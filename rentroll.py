@@ -34,7 +34,7 @@ index_name = 'rentrolls'
 pc = Pinecone(api_key=pc_key)
 index = pc.Index(index_name)
 
-model_name = 'text-embedding-3-small'
+model_name = "text-embedding-ada-002"
 
 embed = OpenAIEmbeddings(
     model=model_name,
